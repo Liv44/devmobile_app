@@ -34,7 +34,7 @@
             android:layout_marginTop="8dp"
             android:text="Saint Herblain - 44800"
             android:textColor="#FFFFFF"
-            android:textSize="8sp"
+            android:textSize="10sp"
             app:layout_constraintBottom_toTopOf="@+id/distance"
             app:layout_constraintEnd_toEndOf="@+id/name"
             app:layout_constraintHorizontal_bias="0.0"
