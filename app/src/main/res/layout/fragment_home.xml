@@ -15,7 +15,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:itemCount="6"
-        tools:listitem="@layout/cardview_item" />
+        tools:listitem="@layout/cardview_item_station" />
 
     <ProgressBar
         android:id="@+id/progressBarStations"

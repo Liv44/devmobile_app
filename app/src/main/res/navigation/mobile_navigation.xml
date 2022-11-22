@@ -12,14 +12,8 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.velo_a_nantes.ui.dashboard.DashboardFragment"
-        android:label="@string/title_station"
-        tools:layout="@layout/fragment_dashboard" />
-
-    <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.example.velo_a_nantes.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_pools"
+        android:name="com.example.velo_a_nantes.ui.dashboard.PoolsFragment"
+        android:label="@string/title_pools"
+        tools:layout="@layout/fragment_pools" />
 </navigation>

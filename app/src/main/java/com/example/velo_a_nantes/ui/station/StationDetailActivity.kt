@@ -15,7 +15,7 @@ class StationDetailActivity : AppCompatActivity() {
         setContentView(R.layout.activity_station_detail)
         val stationName = findViewById<TextView>(R.id.stationName)
 
-        val buttonOpen = findViewById<Button>(R.id.buttonOpenMap)
+        val buttonOpen = findViewById<Button>(R.id.buttonOpenWebSite)
 
 
         stationSelected?.let{station ->

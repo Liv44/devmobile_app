@@ -12,18 +12,11 @@ import android.widget.TextView
 import androidx.annotation.RequiresApi
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
-import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import com.example.velo_a_nantes.R
 import com.example.velo_a_nantes.models.Station
-import com.example.velo_a_nantes.models.allStations
 import com.example.velo_a_nantes.models.currentLocation
 import com.example.velo_a_nantes.models.stationSelected
 import com.example.velo_a_nantes.ui.home.StationMapsActivity
-import com.example.velo_a_nantes.ui.station.StationDetailActivity
-import org.w3c.dom.Text
-import java.lang.Math.round
-import kotlin.math.roundToInt
-import kotlin.math.roundToLong
 
 class StationAdapter(private val stations:List<Station>, private val context:Context) :
     RecyclerView.Adapter<StationAdapter.ViewHolder>() {
@@ -37,7 +30,7 @@ class StationAdapter(private val stations:List<Station>, private val context:Con
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.cardview_item,parent, false)
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.cardview_item_station,parent, false)
         return ViewHolder(view)
     }
 
@@ -65,7 +58,6 @@ class StationAdapter(private val stations:List<Station>, private val context:Con
         }else{
             holder.status.setImageResource(R.drawable.ic_baseline_red_button)
         }
-
 
         holder.cardView.setOnClickListener {
             val intent = Intent(context, StationMapsActivity::class.java)

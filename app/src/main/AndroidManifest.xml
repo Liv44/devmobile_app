@@ -31,16 +31,20 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyDCYhS0uLaSxDC0vtV9ciBL_eU-XdV2w7w" />
         <activity
+            android:name=".ui.station.StationDetailActivity"
+            android:exported="false"/>
+        <activity
             android:name=".ui.home.StationMapsActivity"
             android:exported="false"
             android:label="@string/title_activity_station_maps" />
-        <activity
-            android:name=".ui.station.StationDetailActivity"
-            android:exported="false">
+
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
-        </activity>
+        <activity
+            android:name=".ui.pools.PoolDetailActivity"
+            android:exported="false"
+            android:label="Pools" />
         <activity
             android:name=".MainActivity"
             android:exported="true"

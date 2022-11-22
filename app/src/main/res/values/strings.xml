@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">Velo_a_Nantes</string>
     <string name="title_velo">Velos</string>
-    <string name="title_station">Stations</string>
+    <string name="title_pools">Piscines</string>
+    <string name="button_open_web_site">Ouvrir le site web</string>
+    <string name="button_open_pool_map">Voir la piscine sur la carte</string>
     <string name="title_notifications">Notifications</string>
     <string name="title_activity_detail_station">DetailStationActivity</string>
     <!-- Strings used for fragments for navigation -->
